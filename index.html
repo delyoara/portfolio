@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar">
+        <div class="portofolio">WiredByCode</div>
+
+        <!-- Checkbox cachée pour le toggle -->
+        <input type="checkbox" id="menu-toggle" />
+
+        <!-- Label avec l'icône hamburger -->
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <ul class="menu">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">A propos de moi</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-content">
+        <div class="header-text">
+          <h1 data-aos="fade-up">Hello, <span>moi c'est Petronela</span></h1>
+          <p data-aos="fade-up" data-aos-delay="200">
+            Développeuse web en formation chez Ada Tech Scool
+          </p>
+          <p data-aos="fade-up">
+            À la recherche d'une alternance pour apporter bonne humeur, <br />
+            créativité et magie dans chaque ligne de code.
+          </p>
+          <br />
+          <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="400"
+            >On en parle ?</a
+          >
+        </div>
+
+        <div class="header-photo">
+          <img
+            src="images/IMG_7531.jpg"
+            alt="Ma photo"
+            width="180"
+            height="210"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2 data-aos="fade-right">À propos de moi...</h2>
+        <p data-aos="fade-left">
+          Si vous lisez ces lignes, c'est que j'ai franchi le cap et décidé de
+          me lancer dans le développement web. J'aime explorer, résoudre des
+          défis et apprendre. Le code est pour moi un moyen
+          d’exprimer ma créativité et de m’améliorer sans cesse. Sensible et à
+          l’écoute, j’ai grandi dans un environnement musical qui m’a appris la
+          discipline, la persévérance et la collaboration. Mon parcours en sciences
+          humaines et sociales a renforcé ma capacité d’empathie et de
+          compréhension. Je privilégie les échanges humains et le travail en équipe, 
+          tout en étant capable d’avancer de façon autonome, avec la volonté de trouver 
+          des solutions et de faire progresser les projets. <br /> Aujourd’hui, je prépare le
+          titre RNCP de niveau 6 (Bac+3) de Concepteur Développeur
+          d’Applications Web & Mobile et je suis à la recherche d’une alternance
+          de 12 à 24 mois, avec un rythme hebdomadaire de 4 jours en entreprise 
+          et 1 jour à l’école.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" role="region" aria-labelledby="skills">
+      <div class="container">
+        <h2 data-aos="fade-right">Skills</h2>
+
+        <div class="skills-row">
+          <div class="hard-skills" data-aos="fade-right">
+            <h3>Hard Skills</h3>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/html.svg"
+                  height="40"
+                  width="30"
+                  alt="HTML Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">HTML</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/css.svg"
+                  height="40"
+                  width="30"
+                  alt="CSS Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">CSS</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/javascript-1.svg"
+                  height="40"
+                  width="30"
+                  alt="JavaScript Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/tailwind-css.svg"
+                  height="40"
+                  width="30"
+                  alt="Tailwind Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Tailwind</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/next-js.svg"
+                  height="40"
+                  width="30"
+                  alt="Next.js Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Next.js</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/neon-logomark-light-color.svg"
+                  height="40"
+                  width="30"
+                  alt="Next.js Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Neon</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/postgresql.svg"
+                  height="40"
+                  width="30"
+                  alt="Postgres Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">PostgreSQL</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/prisma.svg"
+                  height="40"
+                  width="30"
+                  alt="Prisma Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Prisma</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/nodejs-icon.svg"
+                  height="40"
+                  width="30"
+                  alt="Node.js Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Node.js</p>
+            </div>
+          </div>
+
+          <div class="soft-skills" data-aos="fade-left">
+            <h3>Soft Skills</h3>
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/intel_emo.png"
+                  height="40"
+                  width="30"
+                  alt="Emotional intelligence"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Intelligence émotionelle</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/collaboration1.png"
+                  height="40"
+                  width="30"
+                  alt="Collaboration"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Collaboration</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/com.png"
+                  height="40"
+                  width="30"
+                  alt="Communication"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Communication</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/motivation.png"
+                  height="40"
+                  width="30"
+                  alt="Motivation"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Motivation</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/curiosity.png"
+                  height="40"
+                  width="30"
+                  alt="Curiosity"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Curiosité</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/analytical-thinking.png"
+                  height="40"
+                  width="30"
+                  alt="Analytical thinking"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Esprit d'analyse</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/collaboration1.png"
+                  height="40"
+                  width="30"
+                  alt="Collaboration"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Collaboration</p>
+            </div>
+
+            <div class="skill-card">
+              <!-- Ajouté ici -->
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/adaptation.png"
+                  height="40"
+                  width="30"
+                  alt="Adaptability logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Adaptabilité</p>
+            </div>
+
+            <div class="skill-card" style="visibility: hidden">
+              <div class="logo-container">
+                <img src="" height="40" width="30" alt="" class="logo" />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 data-aos="fade-right">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <a href="https://femmes-illustres-paris.vercel.app" target="_blank">
+              <img
+                src="images/femmes_illustres.jpg"
+                alt="Project 1"
+                class="project-1"
+              />
+            </a>
+            <h4>Description du projet</h4>
+            <ul class="description-project">
+Développement d’une application web interactive mettant en lumière 77 femmes ayant marqué l’histoire de Paris, grâce à une visualisation cartographique.<br /><br />
+<li><strong> Données :</strong> exploitation des données Open Data de la Mairie de Paris – Femmes illustres à Paris – pour les portraits et descriptions.</li>
+<li><strong>Géolocalisation :</strong> utilisation de l’API Nominatim (OpenStreetMap) pour obtenir les coordonnées des adresses et les afficher sur une carte Leaflet.</li>
+<li><strong>Interface utilisateur : </strong>navigation via une liste filtrable par catégories (scientifiques, artistes, politiques, etc), avec affichage dynamique du lieu correspondant sur la carte.</li>
+<li><strong>Technologies utilisées :</strong> HTML, CSS, JavaScript.</li>
+<li>Projet réalisé avec Hanane Benabid et Camille Lebigot.</li>
+</ul>
+</p>
+          </div>
+
+          <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+            <a href="https://site-adoption-animaux.vercel.app" target="_blank">
+              <img src="images/adaopte.jpg" alt="Project 2" class="project-2" />
+            </a>
+          <h4>Description du projet</h4>
+            <ul class="description-project">
+Réalisation d’un site web solidaire visant à faciliter et promouvoir l’adoption responsable d’animaux abandonnés. <br /><br />
+<li><strong> Affichage en grille :</strong> une sélection d’animaux est affichée sous forme de grille CSS Grid sur la page d’accueil. </li>
+<li><strong>Interface utilisateur : </strong>navigation via une liste filtrable par catégories et par ville avec affichage sur une deuxième page.</li>
+<li><strong>Technologies front-end utilisées :</strong> HTML, CSS, JavaScript.</li>
+<li><strong>Conception de base de données back-end :</strong> conception et préparation d’une base PostgreSQL hébergée sur Neon, destinée à gérer les candidatures d’adoption (connexion au site non encore active).</li>
+<li>Projet individuel</li>
+</ul>
+          </div>
+
+          <!-- <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+            <img src="https://placehold.co/300" alt="Project 3" />
+            <h3>Projet 3</h3>
+            <p>Description du projet.</p>
+          </div>
+        --></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 data-aos="fade-right">Contact</h2>
+        <form
+          action="mailto:delyoara@yahoo.fr"
+          method="POST"
+          enctype="text/plain"
+          class="contact-form"
+          novalidate
+        >
+          <div class="form-group">
+            <input type="text" id="name" name="name" required />
+            <label for="name">Nom</label>
+            <span id="name-error" class="error-message"
+              >Veuillez entrer votre nom.</span
+            >
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" required />
+            <label for="email">Email</label>
+            <span id="email-error" class="error-message"
+              >Veuillez entrer un email valide.</span
+            >
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" required></textarea>
+            <label for="message">Message</label>
+            <span id="message-error" class="error-message"
+              >Veuillez entrer votre message.</span
+            >
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 Petronela Mucilianu. All rights reserved.</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
