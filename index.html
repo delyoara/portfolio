@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,13 +7,18 @@
       href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
       rel="stylesheet"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
     <link rel="stylesheet" href="styles.css" />
-    <title>Portofolio</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <header id="home">
       <nav class="navbar">
-        <div class="portofolio">WiredByCode</div>
+        <div class="portfolio">WiredByCode</div>
 
         <!-- Checkbox cachée pour le toggle -->
         <input type="checkbox" id="menu-toggle" />
@@ -32,13 +37,13 @@
 
       <div class="header-content">
         <div class="header-text">
-          <h1 data-aos="fade-up">Hello, <span>moi c'est Petronela</span></h1>
+          <h1 data-aos="fade-up">Moi,<span> c'est Petronela</span></h1>
           <p data-aos="fade-up" data-aos-delay="200">
-            Développeuse web en formation chez Ada Tech Scool
+            Développeuse web en formation chez Ada Tech School
           </p>
           <p data-aos="fade-up">
             À la recherche d'une alternance pour apporter bonne humeur, <br />
-            créativité et magie dans chaque ligne de code.
+            créativité, rigueur et magie dans chaque ligne de code.
           </p>
           <br />
           <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="400"
@@ -61,27 +66,28 @@
       <div class="container">
         <h2 data-aos="fade-right">À propos de moi...</h2>
         <p data-aos="fade-left">
-          Si vous lisez ces lignes, c'est que j'ai franchi le cap et décidé de
-          me lancer dans le développement web. J'aime explorer, résoudre des
-          défis et apprendre. Le code est pour moi un moyen
-          d’exprimer ma créativité et de m’améliorer sans cesse. Sensible et à
-          l’écoute, j’ai grandi dans un environnement musical qui m’a appris la
-          discipline, la persévérance et la collaboration. Mon parcours en sciences
-          humaines et sociales a renforcé ma capacité d’empathie et de
-          compréhension. Je privilégie les échanges humains et le travail en équipe, 
-          tout en étant capable d’avancer de façon autonome, avec la volonté de trouver 
-          des solutions et de faire progresser les projets. <br /> Aujourd’hui, je prépare le
-          titre RNCP de niveau 6 (Bac+3) de Concepteur Développeur
-          d’Applications Web & Mobile et je suis à la recherche d’une alternance
-          de 12 à 24 mois, avec un rythme hebdomadaire de 4 jours en entreprise 
-          et 1 jour à l’école.
+          En reconversion professionnelle, je construis aujourd’hui mes compétences
+           en développement web chez Ada Tech School, où je transforme ma passion 
+           pour la tech en savoir-faire concret. J'aime explorer, résoudre des
+          défis et apprendre. Le code est pour moi un moyen d’exprimer ma
+          créativité et de m’améliorer sans cesse. Sensible et à l’écoute, j’ai
+          grandi dans un environnement musical qui m’a appris la discipline, la
+          persévérance et la collaboration. Mon parcours en sciences humaines et
+          sociales a renforcé mon sens de l’écoute, ma communication  et de compréhension. Je
+          privilégie les échanges humains et le travail en équipe, tout en étant
+          capable d’avancer de façon autonome, avec la volonté de trouver des
+          solutions et de faire progresser les projets. <br />
+          Aujourd’hui, je prépare le titre RNCP de niveau 6 (Bac+3) de
+          Concepteur Développeur d’Applications Web & Mobile et je suis à la
+          recherche d’une alternance de 12 à 24 mois en Île-de-France, avec un rythme
+          hebdomadaire de 4 jours en entreprise et 1 jour à l’école.
         </p>
       </div>
     </section>
 
-    <section id="skills" role="region" aria-labelledby="skills">
+    <section id="skills" role="region" aria-labelledby="skills-title">
       <div class="container">
-        <h2 data-aos="fade-right">Skills</h2>
+        <h2 id="skills-title" data-aos="fade-right">Skills</h2>
 
         <div class="skills-row">
           <div class="hard-skills" data-aos="fade-right">
@@ -93,7 +99,7 @@
                   src="logos/html.svg"
                   height="40"
                   width="30"
-                  alt="HTML Logo"
+                  alt="Logo de HTML"
                   class="logo"
                 />
               </div>
@@ -107,7 +113,7 @@
                   src="logos/css.svg"
                   height="40"
                   width="30"
-                  alt="CSS Logo"
+                  alt="Logo de CSS"
                   class="logo"
                 />
               </div>
@@ -121,7 +127,7 @@
                   src="logos/javascript-1.svg"
                   height="40"
                   width="30"
-                  alt="JavaScript Logo"
+                  alt="Logo de JavaScript"
                   class="logo"
                 />
               </div>
@@ -135,12 +141,26 @@
                   src="logos/tailwind-css.svg"
                   height="40"
                   width="30"
-                  alt="Tailwind Logo"
+                  alt="Logo de Tailwind"
                   class="logo"
                 />
               </div>
               <div class="underline"></div>
               <p class="skill-name">Tailwind</p>
+            </div>
+          
+             <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/react.svg"
+                  height="40"
+                  width="30"
+                  alt="Logo de React"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">React</p>
             </div>
 
             <div class="skill-card">
@@ -149,7 +169,7 @@
                   src="logos/next-js.svg"
                   height="40"
                   width="30"
-                  alt="Next.js Logo"
+                  alt="Logo de Next.js "
                   class="logo"
                 />
               </div>
@@ -163,7 +183,7 @@
                   src="logos/neon-logomark-light-color.svg"
                   height="40"
                   width="30"
-                  alt="Next.js Logo"
+                  alt="Logo de Neon"
                   class="logo"
                 />
               </div>
@@ -177,12 +197,27 @@
                   src="logos/postgresql.svg"
                   height="40"
                   width="30"
-                  alt="Postgres Logo"
+                  alt="Logo de PostgreSQL"
                   class="logo"
                 />
               </div>
               <div class="underline"></div>
               <p class="skill-name">PostgreSQL</p>
+            </div>
+
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logos/sqlite.svg"
+                  height="40"
+                  width="30"
+                  alt="SQLite Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">SQLite</p>
             </div>
 
             <div class="skill-card">
@@ -212,10 +247,42 @@
               <div class="underline"></div>
               <p class="skill-name">Node.js</p>
             </div>
+
+              <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/express-js.png"
+                  height="40"
+                  width="30"
+                  alt="Express.js Logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Express.js</p>
+            </div>
+
           </div>
+          
 
           <div class="soft-skills" data-aos="fade-left">
             <h3>Soft Skills</h3>
+
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/curiosity.png"
+                  height="40"
+                  width="30"
+                  alt="Curiosity"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Curiosité technique</p>
+            </div>
+
             <div class="skill-card">
               <div class="logo-container">
                 <img
@@ -227,22 +294,24 @@
                 />
               </div>
               <div class="underline"></div>
-              <p class="skill-name">Intelligence émotionelle</p>
+              <p class="skill-name">Empathie</p>
             </div>
 
-            <div class="skill-card">
+
+                <div class="skill-card">
               <div class="logo-container">
                 <img
-                  src="logo_soft_skills/collaboration1.png"
+                  src="logo_soft_skills/optimisme.png"
                   height="40"
                   width="30"
-                  alt="Collaboration"
+                  alt="Optimisme"
                   class="logo"
                 />
               </div>
               <div class="underline"></div>
-              <p class="skill-name">Collaboration</p>
+              <p class="skill-name">Optimisme</p>
             </div>
+            
 
             <div class="skill-card">
               <div class="logo-container">
@@ -261,6 +330,21 @@
             <div class="skill-card">
               <div class="logo-container">
                 <img
+                  src="logo_soft_skills/collaboration1.png"
+                  height="40"
+                  width="30"
+                  alt="Collaboration"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Collaboration</p>
+            </div>
+
+
+            <div class="skill-card">
+              <div class="logo-container">
+                <img
                   src="logo_soft_skills/motivation.png"
                   height="40"
                   width="30"
@@ -270,20 +354,6 @@
               </div>
               <div class="underline"></div>
               <p class="skill-name">Motivation</p>
-            </div>
-
-            <div class="skill-card">
-              <div class="logo-container">
-                <img
-                  src="logo_soft_skills/curiosity.png"
-                  height="40"
-                  width="30"
-                  alt="Curiosity"
-                  class="logo"
-                />
-              </div>
-              <div class="underline"></div>
-              <p class="skill-name">Curiosité</p>
             </div>
 
             <div class="skill-card">
@@ -300,22 +370,22 @@
               <p class="skill-name">Esprit d'analyse</p>
             </div>
 
-            <div class="skill-card">
+              <div class="skill-card">
               <div class="logo-container">
                 <img
-                  src="logo_soft_skills/collaboration1.png"
+                  src="logo_soft_skills/la-gestion-du-stress.png"
                   height="40"
                   width="30"
-                  alt="Collaboration"
+                  alt="Stress Management logo"
                   class="logo"
                 />
               </div>
               <div class="underline"></div>
-              <p class="skill-name">Collaboration</p>
+              <p class="skill-name">Gestion du stress</p>
             </div>
 
+
             <div class="skill-card">
-              <!-- Ajouté ici -->
               <div class="logo-container">
                 <img
                   src="logo_soft_skills/adaptation.png"
@@ -329,13 +399,30 @@
               <p class="skill-name">Adaptabilité</p>
             </div>
 
+
+             <div class="skill-card">
+              <div class="logo-container">
+                <img
+                  src="logo_soft_skills/critical_thinking.png"
+                  height="40"
+                  width="30"
+                  alt="Critical Thinking logo"
+                  class="logo"
+                />
+              </div>
+              <div class="underline"></div>
+              <p class="skill-name">Analyse critique</p>
+            </div>
+            
+<!-- 
             <div class="skill-card" style="visibility: hidden">
               <div class="logo-container">
                 <img src="" height="40" width="30" alt="" class="logo" />
               </div>
               <div class="underline"></div>
               <p class="skill-name"></p>
-            </div>
+            </div> -->
+
           </div>
         </div>
       </div>
@@ -355,29 +442,63 @@
             </a>
             <h4>Description du projet</h4>
             <ul class="description-project">
-Développement d’une application web interactive mettant en lumière 77 femmes ayant marqué l’histoire de Paris, grâce à une visualisation cartographique.<br /><br />
-<li><strong> Données :</strong> exploitation des données Open Data de la Mairie de Paris – Femmes illustres à Paris – pour les portraits et descriptions.</li>
-<li><strong>Géolocalisation :</strong> utilisation de l’API Nominatim (OpenStreetMap) pour obtenir les coordonnées des adresses et les afficher sur une carte Leaflet.</li>
-<li><strong>Interface utilisateur : </strong>navigation via une liste filtrable par catégories (scientifiques, artistes, politiques, etc), avec affichage dynamique du lieu correspondant sur la carte.</li>
-<li><strong>Technologies utilisées :</strong> HTML, CSS, JavaScript.</li>
-<li>Projet réalisé avec Hanane Benabid et Camille Lebigot.</li>
-</ul>
-</p>
+              Développement d’une application web interactive mettant en lumière
+              77 femmes ayant marqué l’histoire de Paris, grâce à une
+              visualisation cartographique.<br /><br />
+              <li>
+                <strong> Données :</strong> exploitation des données Open Data
+                de la Mairie de Paris – Femmes illustres à Paris – pour les
+                portraits et descriptions.
+              </li>
+              <li>
+                <strong>Géolocalisation :</strong> utilisation de l’API
+                Nominatim (OpenStreetMap) pour obtenir les coordonnées des
+                adresses et les afficher sur une carte Leaflet.
+              </li>
+              <li>
+                <strong>Interface utilisateur : </strong>navigation via une
+                liste filtrable par catégories (scientifiques, artistes,
+                politiques, etc), avec affichage dynamique du lieu correspondant
+                sur la carte.
+              </li>
+              <li>
+                <strong>Technologies utilisées :</strong> HTML, CSS, JavaScript.
+              </li>
+              <li>Projet réalisé avec Hanane Benabid et Camille Lebigot.</li>
+            </ul>
           </div>
 
           <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
             <a href="https://site-adoption-animaux.vercel.app" target="_blank">
               <img src="images/adaopte.jpg" alt="Project 2" class="project-2" />
             </a>
-          <h4>Description du projet</h4>
+            <h4>Description du projet</h4>
             <ul class="description-project">
-Réalisation d’un site web solidaire visant à faciliter et promouvoir l’adoption responsable d’animaux abandonnés. <br /><br />
-<li><strong> Affichage en grille :</strong> une sélection d’animaux est affichée sous forme de grille CSS Grid sur la page d’accueil. </li>
-<li><strong>Interface utilisateur : </strong>navigation via une liste filtrable par catégories et par ville avec affichage sur une deuxième page.</li>
-<li><strong>Technologies front-end utilisées :</strong> HTML, CSS, JavaScript.</li>
-<li><strong>Conception de base de données back-end :</strong> conception et préparation d’une base PostgreSQL hébergée sur Neon, destinée à gérer les candidatures d’adoption (connexion au site non encore active).</li>
-<li>Projet individuel</li>
-</ul>
+              Réalisation d’un site web solidaire visant à faciliter et
+              promouvoir l’adoption responsable d’animaux abandonnés.
+              <br /><br />
+              <li>
+                <strong> Affichage en grille :</strong> une sélection d’animaux
+                est affichée sous forme de grille CSS Grid sur la page
+                d’accueil.
+              </li>
+              <li>
+                <strong>Interface utilisateur : </strong>navigation via une
+                liste filtrable par catégories et par ville avec affichage sur
+                une deuxième page.
+              </li>
+              <li>
+                <strong>Technologies front-end utilisées :</strong> HTML, CSS,
+                JavaScript.
+              </li>
+              <li>
+                <strong>Conception de base de données back-end :</strong>
+                conception et préparation d’une base PostgreSQL hébergée sur
+                Neon, destinée à gérer les candidatures d’adoption (connexion au
+                site non encore active).
+              </li>
+              <li>Projet individuel</li>
+            </ul>
           </div>
 
           <!-- <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
@@ -393,12 +514,15 @@ Réalisation d’un site web solidaire visant à faciliter et promouvoir l’ado
       <div class="container">
         <h2 data-aos="fade-right">Contact</h2>
         <form
-          action="mailto:delyoara@yahoo.fr"
+          action="https://formsubmit.co/4394243e343115fc69e8cc299ef5e75d"
           method="POST"
-          enctype="text/plain"
           class="contact-form"
           novalidate
         >
+        <!-- piège à robots -->
+        <input type="text" name="_honey" style="display:none">
+           <input type="hidden" name="_captcha" value="false">
+
           <div class="form-group">
             <input type="text" id="name" name="name" required />
             <label for="name">Nom</label>
@@ -422,15 +546,17 @@ Réalisation d’un site web solidaire visant à faciliter et promouvoir l’ado
           </div>
           <button type="submit" class="btn">Envoyer</button>
         </form>
+        <div id="confirmation-message">
+      Merci pour votre message, je vous répondrai rapidement !
       </div>
     </section>
 
     <footer class="footer">
       <p>&copy; 2025 Petronela Mucilianu. All rights reserved.</p>
       <div class="socials">
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/delyoara" target="_blank" aria-label="GitHub">
+  <img src="logos/github-logo.svg" alt="GitHub logo" height="30" style="filter: invert(1)" />
+</a>
       </div>
     </footer>
     <script src="script.js"></script>
